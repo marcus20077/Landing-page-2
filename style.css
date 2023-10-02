@@ -146,9 +146,91 @@ footer {
 img{
     width: 100px;
     height: auto;
-
-
+font-size: 24px;
+font-weight: bold;
+border-radius: 7px
 }
-.header img{
-    float: left;
+body {
+   font-family: Arial, sans-serif;
+   background-color: rgb(228, 228, 228);
+   margin: 0;
+   padding: 0;
+}
+header {
+
+
+   background-color: rgb(34, 33, 33);
+
+
+   color: rgb(255, 255, 255);
+
+
+   padding: 10px 0;
+
+
+   position: fixed;
+
+
+   width: 100%;
+
+
+   top: 0;
+   z-index: 100;
+   display: flex;
+   align-items: center;
+}
+
+
+.navbar {
+   max-width: 800px;
+   margin-left: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.navbar:hover{
+  color: blue;
+  font-style: oblique;
+}
+
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+   border-radius: 7px;
+   margin-left: 70px; 
+}
+
+
+.logo-img {
+   width: 100px;
+   height: auto;
+   border-radius: 7px;
+}
+
+
+.nav-links {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+
+.nav-links li {
+   display: inline;
+   margin-right: 100px;
+}
+
+
+.nav-links li a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+.nav-links li a:hover{
+  color: rgb(197, 7, 7);
+  font-size: large;
+  font-style: initial;
+}
+.content {
+   margin-top: 80px; 
 }
