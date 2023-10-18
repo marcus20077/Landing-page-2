@@ -37,13 +37,12 @@ color: rgb(218, 57, 57);
    .container {
             padding: 20px;
             text-align: center;
-            background-color: rgb(209, 6, 6);
+            background-color: rgba(209, 6, 6, 0);
             margin-top: 5px;
         }
 
  footer {
 
-            position: absolute;
             bottom: 0px;
             left: 0px;
             right: 0px;
@@ -181,7 +180,7 @@ body {
 header {
 
 
-   background-color: rgb(34, 33, 33);
+   background-color: rgb(22, 22, 22);
 
 
    color: rgb(255, 255, 255);
@@ -255,4 +254,45 @@ header {
 }
 .content {
    margin-top: 80px; 
+}
+button{
+  color: rgb(219, 215, 215);
+  padding: 10px;
+  border-radius: 6px;
+  background: rgb(223, 55, 43) ;
+  transition: all 0.2s ease;
+  font-size: 30px;
+  cursor: pointer;
+
+
+}
+
+.botao{
+display: flex;
+justify-content: center;
+
+}
+
+.botao :active{
+transform: scale(0.96);
+
+}
+button:hover{
+  color: #b3b3b3;
+}
+.cta-txt{
+font-size: 48px;
+justify-content: center;
+padding: 100px;
+text-align: center;
+}
+
+.txt2{
+font-size: 30px;
+margin-top: 10px;
+}
+.cont2{
+background-color: #a8a29e;
+height: 700px;
+
 }
