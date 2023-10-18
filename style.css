@@ -292,7 +292,11 @@ font-size: 30px;
 margin-top: 10px;
 }
 .cont2{
-background-color: #a8a29e;
-height: 700px;
-
+background-image: url("https://i.ibb.co/pJKgPM4/img-site.png");
+height: 600px;
+background-repeat: no-repeat;
+ -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
