@@ -243,7 +243,7 @@ button{
   color: #ffffff;
   padding: 10px;
   border-radius: 4px;
-  background: #0e0e27;
+  background: #c71111;
   transition: all 0.2s ease;
   font-size: 30px;argin-bottom: 1000px;
   cursor: pointer;
@@ -315,7 +315,7 @@ background-repeat: no-repeat;
             width: 100%;
             padding: 35px 30px;
             position: relative;
-            background: rgba(255, 255, 255, 0.356);
+            background: rgba(189, 189, 189, 0.87);
         }
         .task:hover .abstract,
         .task:hover .details {
@@ -355,4 +355,5 @@ background-repeat: no-repeat;
         }
 .cx1-txt1{
     color:rgb(0, 0, 0)
-    
+}
+
